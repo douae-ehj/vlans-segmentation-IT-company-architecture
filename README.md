@@ -1,7 +1,5 @@
 # IT Company VLAN Network Segmentation Architecture
 
-> **Cisco Packet Tracer simulation** of a hierarchical, segmented enterprise network for a 1,500-employee IT company.
-
 ---
 
 ## Project Overview
