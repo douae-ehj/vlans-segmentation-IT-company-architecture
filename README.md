@@ -112,9 +112,10 @@ All servers are centralized at the ground floor with **static IP addresses**:
 ## Repository Structure
 
 ```
+
+├── README.md
 ├── vlans.pkt                        # Cisco Packet Tracer project file
-├── vlans.png                        # A screenshot of the Network Topology
-└── README.md
+└── vlans.png                        # A screenshot of the Network Topology
 ```
 
 > **To open the simulation:** Install [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer) and open `vlans.pkt`.
