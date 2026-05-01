@@ -58,7 +58,7 @@ The network is logically segmented into **7 VLANs**, each mapped to a department
 
 The architecture follows a **3-tier hierarchical model**:
 
-![Network Topology](screenshots/topology.png)
+![Network Topology](vlans.png)
 
 - **Redundant uplinks** — Each access switch connects to both MLS1 and MLS2 (crossover cables)
 - **Dual ISP** — R1 and R2 each connect to two ISPs for WAN redundancy
