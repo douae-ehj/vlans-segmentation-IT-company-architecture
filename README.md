@@ -1,6 +1,5 @@
 # IT Company VLAN Network Segmentation Architecture
 
----
 
 ## Project Overview
 
