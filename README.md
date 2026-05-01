@@ -58,18 +58,7 @@ The network is logically segmented into **7 VLANs**, each mapped to a department
 
 The architecture follows a **3-tier hierarchical model**:
 
-```
-         [ISP1]      [ISP2]
-            \         /
-           [R1]    [R2]          ← Core Routers (WAN + Inter-VLAN, HSRP)
-              \   /
-         [MLS1] — [MLS2]        ← Multilayer Switches (Distribution, HSRP)
-        /    |         |    \
-   [SW-F3] [SW-F2] [SW-F1] [SW-RDC]   ← Access Switches (per floor)
-      |       |       |        |
-   VLAN50  VLAN10  VLAN30   VLAN60
-           VLAN20  VLAN40   (Servers)
-```
+![Network Topology](screenshots/topology.png)
 
 - **Redundant uplinks** — Each access switch connects to both MLS1 and MLS2 (crossover cables)
 - **Dual ISP** — R1 and R2 each connect to two ISPs for WAN redundancy
