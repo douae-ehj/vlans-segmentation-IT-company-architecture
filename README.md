@@ -113,6 +113,7 @@ All servers are centralized at the ground floor with **static IP addresses**:
 
 ```
 ├── vlans.pkt                        # Cisco Packet Tracer project file
+├── vlans.png                        # A screenshot of the Network Topology
 └── README.md
 ```
 
